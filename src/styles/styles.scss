@@ -1,0 +1,15 @@
+@import './base/settings';
+@import './base/base';
+
+// Paginas
+@import './pages/auth';
+@import './pages/journal';
+
+// Componentes
+@import './components/login/btn-google';
+@import './components/buttons';
+@import './base/links';
+@import './components/home/sidebar.scss';
+@import './components/blankState/nothing';
+@import './components/home/notes/notes';
+@import './components/loader';

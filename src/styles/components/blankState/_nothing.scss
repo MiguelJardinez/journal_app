@@ -1,0 +1,23 @@
+.nothing__main-content {
+  align-items: center;
+  background-color: $primary;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.nothing__actions{
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  
+  .nothing__new-entry {
+    display: flex;
+
+    p {
+      margin-right: 10px;
+    }
+  }
+}
